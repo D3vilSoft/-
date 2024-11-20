@@ -7,7 +7,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000; /* Чёрный фон */
+    background-color: #000000; /* Черный фон */
 }
 
 .container {
@@ -38,4 +38,9 @@ body, html {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+/* Изменение цвета кнопки при наведении курсора */
+.color-button:hover {
+    background-color: gray;
 }
