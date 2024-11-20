@@ -1,159 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Daаrk0f</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-   
-      
-   
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Index.css">
-    <link rel="stylesheet" href="assets/css/anim.css">
-    
-    <link rel="stylesheet" href="container.css">
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/preloader.js"></script>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Красная кнопка</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button {
+            background-color: red;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            top: 20%; /* с небольшим отступом ниже середины */
+        }
+    </style>
 </head>
-
-
-    
 <body>
-    
-    
-  
-    
-        
-    <div class="mask">
-        <div class="overlay">
-            <!-- PRELOADER -->
-            <div id="preloader">
-                <div class="loading">
-                    <div class="loader"></div>
-                </div>
-            </div>
+    <button class="button" onclick="changeColor(this)">Нажми меня</button>
 
-            <!-- HEADER -->
-            <div class="container-fluid show_fup">
-                <div class="row">
-                    <nav class="navbar navbar-default header" style="background: rgba(0,0,0,.2);">
-                        <div class="container">
-
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-
-                          
-
-                            </div>
-
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-right">
-                           
-                        
-                                
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-
-            <!-- PARTICLES 
-    <div id="particles-js">	</div>-->
-
-            <!-- HOME -->
-            <div class="container home">
-
-
-                <div id='main'>
-
-                    <div class="typer" style="z-index: 0">
-                        <div id='typewrite_'>
-
-                            <h1 class="typewrite show_fup" data-period="2000"
-                                data-type='["D a r k S y n c"]'> <span class="wrap"></span></h1>
-                        </div>
-                    </div>
-
-                    <div style="position: absolute; bottom: 10px; right: 10px;">
-                        <img src="https://counter8.allfreecounter.com/private/freecounterstat.php?c=39cwnnjrshrfbxjac568qezuaylz6l4l"
-                            style="display: none;" alt="counter" />
-                    </div>
-
-                    <div class="content__social show_fdown">
-                        <div id='text_soc'>
-
-                            <ul>
-                                <li>
-                                   
-                                </li>
-                                <span>•</span>
-                                <li><a href="https://www.youtube.com/channel/UCvxv48RL1b9NMtz8Zip9Kcg/">YOUTUBE</a></li>
-                                <span>•</span>
-                                <li><a href="https://vk.com/public214808438">VK</a></li>
-                                <span>•</span>
-                                <li><a href="https://discord.gg/EuasgD4C5c">DISCORD</a></li>
-                                <span>•</span>
-                                <li><a href="https://t.me/+v0U7i-r_twA2MjMy">TELEGRAM</a></li>
-                                <span>•</span>
-                                
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div id='login_panel'>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- FOOTER -->
-            <div id="footer">
-                <footer id="copyright">
-                    <a href="https://google.com/" target="_blank">
-                        <p><span style="color: #fff; opacity: 0;"> </span></p>
-                    </a>
-                </footer>
-                <!--<p>Copyright © 2022 · All Rights Reserved </p>-->
-            </div>
-            
-
-      
-
-          
- 
-         <pv>1</pv>
-        
-
-    
-           
-                
-            
-            
-            
-                <img src="Untitled-1-Recovered.png" align=”middle” height=”1920px” width=”1080px>
-                
-           
-        </div>
-
+    <script>
+        function changeColor(button) {
+            button.style.backgroundColor = 'gray';
+            setTimeout(() => {
+                button.style.backgroundColor = 'red';
+            }, 3000);
+        }
+    </script>
 </body>
-
 </html>
