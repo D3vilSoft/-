@@ -3,38 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Красная кнопка</title>
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .button {
-            background-color: red;
-            color: white;
-            padding: 15px 30px;
-            font-size: 20px;
-            border: none;
-            cursor: pointer;
-            position: relative;
-            top: 20%; /* с небольшим отступом ниже середины */
-        }
-    </style>
+    <title>Кнопка меняющая цвет</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="Untitled-1-Recovered.png" align=”middle” height=”1920px” width=”1080px>
-    <button class="button" onclick="changeColor(this)">Нажми меня</button>
-
-    <script>
-        function changeColor(button) {
-            button.style.backgroundColor = 'gray';
-            setTimeout(() => {
-                button.style.backgroundColor = 'red';
-            }, 3000);
-        }
-    </script>
+    <div class="container">
+        <img src="your-image.jpg" alt="Image" class="image">
+        <button class="color-button">Нажми на меня</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
