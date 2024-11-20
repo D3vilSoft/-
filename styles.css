@@ -41,7 +41,7 @@ body, html {
 }
 
 /* Изменение цвета кнопки при наведении курсора */
-.color-button:hover {
-    background1-color: gray;
-    transition: background1-color 0.3s ease;
+.color-button:active {
+    background-color: gray;
+    
 }
