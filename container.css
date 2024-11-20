@@ -1,1 +1,4 @@
-.container { width: 1080px; height: 1920px; margin:0 auto; }
+body {
+width: 1080;
+height: 1920;
+}
