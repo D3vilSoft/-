@@ -27,7 +27,7 @@ body, html {
 
 .color-button {
     position: absolute;
-    top: 60%; /* Сдвиг ниже центра */
+    top: 80%; /* Сдвиг ниже центра */
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
