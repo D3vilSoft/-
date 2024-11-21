@@ -14,20 +14,3 @@
     height: auto; /* Сохраняет пропорции */
 }
 
-.new-image2 {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    width: 150px; /* Укажите желаемый размер нового изображения */
-    height: auto; /* Сохраняет пропорции */
-}
-
-.new-image3 {
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    width: 150px; /* Укажите желаемый размер нового изображения */
-    height: auto; /* Сохраняет пропорции */
-}
