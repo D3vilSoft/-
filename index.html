@@ -19,6 +19,7 @@
              <img src="Untitled-1-Recovered.png" alt="Old Image" class="image">
              
             <button class="color-button">ВЫДАТЬ СИГНАЛ</button>
+            <button onclick="startShuffle()">Start Shuffle</button>
         </div>
     </div>
     <div id="container1">
@@ -28,6 +29,28 @@
         <img src="image3.jpg" alt="New Image" class="new-image3">
     </div>
     <script src="script.js"></script>
+    <script>
+        function shuffleImages() {
+            const container = document.getElementById('container');
+            const images = Array.from(container.children);
+            for (let i = images.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                container.appendChild(images[j]);
+            }
+        }
+
+        function startShuffle() {
+            let shuffleCount = 0;
+            const shuffleInterval = setInterval(() => {
+                if (shuffleCount < 6) {
+                    shuffleImages();
+                    shuffleCount++;
+                } else {
+                    clearInterval(shuffleInterval);
+                }
+            }, 1000); // Меняет картинки каждые 1000 мс (1 секунда)
+        }
+    </script>
 
 
     
