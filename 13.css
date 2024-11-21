@@ -1,8 +1,8 @@
 .new-image3 {
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    width: 150px; /* Укажите желаемый размер нового изображения */
+    width: 100px; /* Укажите желаемый размер нового изображения */
     height: auto; /* Сохраняет пропорции */
 }
