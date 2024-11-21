@@ -19,7 +19,7 @@
              <img src="Untitled-1-Recovered.png" alt="Old Image" class="image">
              
             <button class="color-button">ВЫДАТЬ СИГНАЛ</button>
-            <button onclick="startShuffle()">Start Shuffle</button>
+        
         </div>
     </div>
     <div id="container1">
@@ -29,13 +29,15 @@
         <img src="image3.jpg" alt="New Image" class="new-image3">
     </div>
     <script src="script.js"></script>
+    <button onclick="startShuffle()">Start Shuffle</button>
+
     <script>
         function shuffleImages() {
-            const container1 = document.getElementById('container1');
-            const images = Array.from(container1.children);
+            const container = document.getElementById('container1');
+            const images = Array.from(container.children);
             for (let i = images.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                container1.appendChild(images[j]);
+                container.appendChild(images[j]);
             }
         }
 
