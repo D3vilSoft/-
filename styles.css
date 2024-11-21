@@ -15,6 +15,11 @@ body, html {
     max-width: 90%;
 }
 
+.container1 {
+    position: relative;
+    max-width: 90%;
+}
+
 .image-container {
     position: relative;
 }
