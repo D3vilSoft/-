@@ -1,4 +1,4 @@
-document.getElementById('rotateButton').addEventListener('click', () => {
+document.getElementById('color-button').addEventListener('click', () => {
     const imageContainer = document.getElementById('imageContainer');
     const images = Array.from(document.querySelectorAll('.small-image'));
     let count = 0;
