@@ -12,12 +12,12 @@ body, html {
 
 .container {
     position: relative;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .container1 {
     position: relative;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .image-container {
