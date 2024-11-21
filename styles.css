@@ -41,7 +41,7 @@ body, html {
 }
 
 /* Изменение цвета кнопки при наведении курсора */
-.color-button:active {
+.rotateButton:active {
     background-color: gray;
     
 }
