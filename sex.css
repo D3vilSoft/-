@@ -1,0 +1,16 @@
+
+.container1 {
+    position: relative;
+    max-width: 90%;
+}
+
+.container1 {
+    position: relative;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
