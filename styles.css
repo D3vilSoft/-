@@ -25,7 +25,7 @@ body, html {
     height: auto;
 }
 
-.rotateButton {
+.rotateButton1 {
     position: absolute;
     top: 80%; /* Сдвиг ниже центра */
     left: 50%;
