@@ -3,31 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XOkiss15337</title>
+    <title>XOkiss1337</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="badbitch.css">
     <link rel="stylesheet" href="cherep.css">
     <link rel="stylesheet" href="12.css">
     <link rel="stylesheet" href="13.css">
 </head>
 <body>
     <div class="container">
-        <div class="image-container">
+        <div class="image-background">
             <img src="Untitled-1-Recovered.png" alt="Old Image" class="image">
-            <button onclick="sex()" class="color-button">ВЫДАТЬ СИГНАЛ</button>
+            <div class="centered-images">
+                <img src="image1.jpg" alt="Image 1" class="img1">
+                <img src="image2.jpg" alt="Image 2" class="img2">
+                <img src="favicon.ico" alt="Image 3" class="img3">
+            </div>
         </div>
+        <button onclick="sex()" class="color-button">ВЫДАТЬ СИГНАЛ</button>
     </div>
 
-    <div id="container1">    
-        <img src="image1.jpg" alt="Image 1" class="img1">
-        <img src="image2.jpg" alt="Image 2" class="img2">
-        <img src="favicon.ico" alt="Image 3" class="img3">
-    </div>
-    
     <script src="script.js"></script>
     <script>
         function shuffleImages() {
-            const container = document.getElementById('container1');
+            const container = document.querySelector('.centered-images');
             const images = Array.from(container.children);
             for (let i = images.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
