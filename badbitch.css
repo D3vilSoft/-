@@ -1,10 +1,10 @@
 
 #container1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: absolute;
+    align-items: absolute;
     height: 100vh; /* Высота контейнера */
-    text-align: center; /* Центрование текста, если нужно */
+    text-align: absolute; /* Центрование текста, если нужно */
     background-color: #f0f0f0; /* Цвет фона, если нужен */
 }
 
