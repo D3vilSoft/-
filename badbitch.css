@@ -1,0 +1,13 @@
+
+#container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота контейнера */
+    text-align: center; /* Центрование текста, если нужно */
+    background-color: #f0f0f0; /* Цвет фона, если нужен */
+}
+
+#container1 img {
+    margin: 10px; /* Отступы между изображениями */
+}
