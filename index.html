@@ -19,6 +19,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column; /* Вертикальное расположение элементов */
         }
 
         .image-container {
@@ -36,7 +37,7 @@
         }
 
         .color-button {
-            margin-top: 20px;
+            margin-top: 20px; /* Отступ от контейнера с изображениями */
             padding: 10px 20px;
             font-size: 16px;
             background-color: #007BFF;
@@ -57,11 +58,9 @@
             <img src="image1.jpg" alt="Image 1" class="img1">
             <img src="image2.jpg" alt="Image 2" class="img2">
             <img src="favicon.ico" alt="Image 3" class="img3">
-            <button onclick="sex()" class="color-button">ВЫДАТЬ СИГНАЛ</button>
         </div>
+        <button onclick="sex()" class="color-button">ВЫДАТЬ СИГНАЛ</button>
     </div>
-
-
 
     <script>
         function shuffleImages() {
