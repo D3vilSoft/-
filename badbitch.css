@@ -1,13 +1,23 @@
-
-#container1 {
-    display: flex;
-    justify-content: absolute;
-    align-items: absolute;
-    height: 100vh; /* Высота контейнера */
-    text-align: absolute; /* Центрование текста, если нужно */
-    background-color: #f0f0f0; /* Цвет фона, если нужен */
+/* styles.css */
+.image-background {
+    position: relative; /* Для позиционирования дочерних элементов абсолютно */
+    display: inline-block; /* Чтобы размер контейнера соответствовал размеру изображения */
 }
 
-#container1 img {
+.centered-images {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-images img {
     margin: 10px; /* Отступы между изображениями */
+}
+
+.color-button {
+    margin-top: 20px; /* Отступ для кнопки */
 }
